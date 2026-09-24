@@ -1,0 +1,15 @@
+{
+  "name": "voxel-game",
+  "version": "1.0.0",
+  "description": "3D Voxel World Engine using Three.js and Web Workers",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "three": "^0.160.0",
+    "vite": "^5.0.0"
+  }
+}
