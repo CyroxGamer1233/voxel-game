@@ -1,1 +1,35 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>3D Voxel World</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Three.js CDN without build tools -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="crosshair">+</div>
+    <div id="ui">
+        <div id="hotbar"></div>
+        <div id="instructions">Tap / Click screen to play</div>
+    </div>
+    
+    <!-- Touch Controls for Mobile -->
+    <div id="mobile-controls">
+        <div id="btn-jump" class="touch-btn">JUMP</div>
+        <div id="btn-break" class="touch-btn action-btn">BREAK</div>
+        <div id="btn-place" class="touch-btn action-btn">PLACE</div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
